@@ -1,8 +1,14 @@
 import React from 'react';
 
-
 export default class RegistrationForm extends React.Component {
   render() {
-    return <div>I am one line, so I do not need the parentheses</div>
+    return (
+        <form>
+          <input type='text' />
+          <input type='password' />
+          <button type='submit'>Send</button>
+
+        </form>
+      )
   }
 }
